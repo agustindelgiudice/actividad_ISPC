@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(90, 40, 90, 0.80)), url(./assets/bg-wallpappers.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+#bgColor {
+    background-color: #292967;
+    color: #f5f6f7;
+    margin: 0 auto;
+
+}
+
+.wallpapper {
+    margin-left: 15%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    width: 80vw;
+}
+
+.registro-de-programador {
+    border: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.registro-de-programador > label {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #cad5e1;
+    padding: 20px;
+}
+
+
+div>input {
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+#textArea {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+
+#cajaBtnEnviar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    width: 80%;
+    margin: 10px;
+}
+
+.titulo-legend {
+    width: 100%;
+    display: flex;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+#checkBox {
+    border: 1px solid white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+#checkBox label {
+    padding: 5px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+#checkBox .text-label {
+    font-size: 1.5em;
+    color: azure;
+    
+}
+#nivelInglesContainer {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid white;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+#nivelInglesContainer > label {
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+#nivelInglesContainer > label > input {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#nivelInglesContainer text-label{
+    font-size: 1.5em;
+    color: azure;
+    
+    
+}
+
+
+#container-img > a > img {
+    width: 20%;
+    display: inline-block;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+
+#container-img, img :hover {
+   cursor: pointer;
+}
