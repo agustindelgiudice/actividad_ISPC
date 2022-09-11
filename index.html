@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--Estilos-->
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <link rel="stylesheet" href="./estilos/header.css">
+    <link rel="stylesheet" href="./estilos/spinner.css">
 
 
     <!--Fuentes-->
@@ -26,6 +27,13 @@
 
 <body id="bgColor">
 
+    <div id="contenedor_carga">
+        <div id="carga"></div>
+      </div>
+      
+
+
+
 <!--Encabezado-->
     <header>
 
@@ -36,37 +44,20 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#tituloLegend">Lenguajes</a></li>
                 <li><a href="#tituloIngles">Cursos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="registro.html" target="_blank" id="registro">Contacto</a></li>
             </ul>
         </div>
         
     </header>
 
 <!--Sección Principal-->
-    <section>
+    <section id="section">
 
 
         <!--Formulario-->
 
         <form method="POST" action="formulario.php" id="form-lbl">
-            <img src="./assets/support.png" alt="wallpapper" class="wallpapper">
-            <div class="registro-de-programador">
-                <h1>Regristro de Programador</h1>
-                <label for="username">Nombre:</label>
-                <input type="text" placeholder="John Doe" id="username" required>
-
-                <label for="mail">Correo Electrónico:</label>
-                <input type="text" placeholder="nombre@ejemplo.com" id="mail" required>
-
-                <label for="telefono">Teléfono:</label>
-                <input type="text" placeholder="Teléfono" id="telefono" required>
-                <div id='textArea'>
-                    <textarea cols="50" rows="10" placeholder="Escribe un texto..."></textarea>
-                </div>
-                <div id="cajaBtnEnviar">
-                    <button type="submit" class=" btn btn-primary  fs-5">Enviar Mensaje</button>
-                </div>
-            </div>
+            
 
 
         <!--Lenguajes-->
@@ -113,7 +104,8 @@
         </div>
     </footer>
 
-    <script src="./input.js"></script>
+
+    <script src="./js/spinner.js"></script>
 </body>
 
 </html>

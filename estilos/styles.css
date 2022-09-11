@@ -22,6 +22,8 @@ body {
     width: 80vw;
 }
 
+
+
 .registro-de-programador {
     border: 1px solid white;
     width: 80%;
@@ -85,7 +87,9 @@ div>input {
     justify-content: center;
 
 }
-
+#section {
+    margin: 50px 0 0 0;
+}
 #checkBox {
     border: 1px solid white;
     width: 50%;
