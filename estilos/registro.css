@@ -20,13 +20,13 @@ body {
 .registro-de-programador > label {
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    color: #000000;
+    color: #c9bbbb;
     padding: 20px;
     
 }
