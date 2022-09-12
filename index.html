@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--Estilos-->
-    <link rel="stylesheet" href="./estilos/styles.css">
+    <link rel="stylesheet" href="./estilos/index.css">
     <link rel="stylesheet" href="./estilos/header.css">
-    <link rel="stylesheet" href="./estilos/spinner.css">
 
 
     <!--Fuentes-->
@@ -27,13 +26,6 @@
 
 <body id="bgColor">
 
-    <div id="contenedor_carga">
-        <div id="carga"></div>
-      </div>
-      
-
-
-
 <!--Encabezado-->
     <header>
 
@@ -44,7 +36,7 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#tituloLegend">Lenguajes</a></li>
                 <li><a href="#tituloIngles">Cursos</a></li>
-                <li><a href="registro.html" target="_blank" id="registro">Contacto</a></li>
+                <li><a href="registro.html" id="registro">Contacto</a></li>
             </ul>
         </div>
         
@@ -62,16 +54,18 @@
 
         <!--Lenguajes-->
             <fieldset id="checkBox">
-                <legend id="tituloLegend" class="titulo-legend"><strong>Lenguajes que conoces</strong></legend>
+                <legend id="tituloLegend" class="titulo-lenguajes-que-conoces"><strong>Lenguajes que conoces:</strong></legend>
         
                 <label class="text-label">
                     <input type="checkbox" class="inline" required />Angular
                 </label><br />
-                <label class="text-label"><input type="checkbox" class="inline" required />Java</label><br />
-                <label class="text-label"><input type="checkbox" class="inline" required />Node Js</label><br />
-                <label class="text-label"><input type="checkbox" class="inline" required />Python</label><br />
-                <label class="text-label"><input type="checkbox" class="inline" required />Otro</label><br />
+                <label class="text-label"><input type="checkbox" class="inline" required />Java</label>
+                <label class="text-label"><input type="checkbox" class="inline" required />Node Js</label>
+                <label class="text-label"><input type="checkbox" class="inline" required />Python</label>
+                <label class="text-label"><input type="checkbox" class="inline" required />Otro</label>
             </fieldset>
+
+
 
 
         <!--Nivel Ingles-->
@@ -105,7 +99,6 @@
     </footer>
 
 
-    <script src="./js/spinner.js"></script>
 </body>
 
 </html>

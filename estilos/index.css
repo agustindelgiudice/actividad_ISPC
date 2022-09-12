@@ -11,8 +11,7 @@ body {
 #bgColor {
     background-color: #292967;
     color: #f5f6f7;
-    margin: 0 auto;
-
+    height: auto;
 }
 
 .wallpapper {
@@ -20,82 +19,31 @@ body {
     margin-bottom: 20px;
     margin-top: 80px;
     width: 80vw;
+    
 }
 
 
+#section {
+    margin: 50px 0 0 0;
+}
 
-.registro-de-programador {
+#checkBox {
     border: 1px solid white;
-    width: 80%;
-    margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.registro-de-programador > label {
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    color: #cad5e1;
-    padding: 20px;
-}
-
-
-div>input {
-    width: 70%;
-    height: 30px;
-    margin-left: 15%;
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-
-
-#textArea {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    margin-left: 25%;
-}
-
-
-#cajaBtnEnviar {
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
-    width: 50%;
-    margin-bottom: 10px;
+    margin-top: 15%;
 }
 
-.btn-primary {
-    width: 80%;
-    margin: 10px;
-}
-
-.titulo-legend {
+.titulo-lenguajes-que-conoces{
     width: 100%;
     display: flex;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    margin-left: 15px;
     justify-content: center;
-
-}
-#section {
-    margin: 50px 0 0 0;
-}
-#checkBox {
-    border: 1px solid white;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 10px;
-    
+    color: rgba(255, 252, 229, 0.8);
+    text-decoration: underline;
 }
 
 #checkBox label {
@@ -106,8 +54,17 @@ div>input {
 #checkBox .text-label {
     font-size: 1.5em;
     color: azure;
+    padding: 10px;
+    margin-left: 3%;
     
 }
+
+input[type=checkbox]{
+
+    margin:10px !important;
+    
+ 
+ }
 #nivelInglesContainer {
     margin: 0 auto;
     width: 50%;
@@ -117,12 +74,13 @@ div>input {
     align-items: center;
     padding: 10px;
     margin-top: 20px;
-    
+    color: rgba(255, 252, 229, 0.8);
 }
 
 #nivelInglesContainer > label {
     font-size: 1.5em;
     padding: 20px;
+    
 }
 
 #nivelInglesContainer > label > input {
@@ -136,7 +94,9 @@ div>input {
     
     
 }
-
+.nivel-ingles {
+    text-decoration: underline;
+}
 
 #container-img > a > img {
     width: 20%;
