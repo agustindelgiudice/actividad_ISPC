@@ -14,15 +14,6 @@ body {
     height: auto;
 }
 
-.wallpapper {
-    margin-left: 15%;
-    margin-bottom: 20px;
-    margin-top: 80px;
-    width: 80vw;
-    
-}
-
-
 #section {
     margin: 50px 0 0 0;
 }
@@ -62,9 +53,8 @@ body {
 input[type=checkbox]{
 
     margin:10px !important;
-    
- 
- }
+}
+
 #nivelInglesContainer {
     margin: 0 auto;
     width: 50%;
